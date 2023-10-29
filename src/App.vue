@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+      <Web3auth/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Web3auth from './components/Web3auth.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Web3auth,
 }
+};
+
 </script>
 
 <style>
@@ -24,3 +27,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
